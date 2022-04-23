@@ -1,0 +1,13 @@
+{
+	"type": "module",
+	"name": "cardboard-viewer",
+	"scripts": {
+		"dev": "NODE_ENV=development node ./scripts/dev.js",
+		"build": "NODE_ENV=production node ./scripts/build.js"
+	},
+	"dependencies": {
+		"@intrnl/rq": "^0.1.14",
+		"clsx": "^1.1.1",
+		"preact": "^10.7.1"
+	}
+}

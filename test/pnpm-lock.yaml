@@ -1,0 +1,35 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@intrnl/rq': ^0.1.14
+  clsx: ^1.1.1
+  preact: ^10.7.1
+
+dependencies:
+  '@intrnl/rq': 0.1.14_preact@10.7.1
+  clsx: 1.1.1
+  preact: 10.7.1
+
+packages:
+
+  /@intrnl/rq/0.1.14_preact@10.7.1:
+    resolution: {integrity: sha512-l3+yNDj8pE9Fj15YI3MLb30Sd/BcvnBdpdHJnCmH4g1XC/j/q0RyjsfpkfO0oY62FV7YLnSMva9Kdz1SNjMWnQ==}
+    peerDependencies:
+      preact: '>=10.5.0'
+    dependencies:
+      '@intrnl/stable-stringify': 0.1.2
+      preact: 10.7.1
+    dev: false
+
+  /@intrnl/stable-stringify/0.1.2:
+    resolution: {integrity: sha512-SY4x1yduvj4vwPe8NWs+EpaQIHL2WnsTZlzNnCHk1/3qcueMEXire50FLNQNDp2L1XV350QbJEEYp2UuRYQhHA==}
+    dev: false
+
+  /clsx/1.1.1:
+    resolution: {integrity: sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /preact/10.7.1:
+    resolution: {integrity: sha512-MufnRFz39aIhs9AMFisonjzTud1PK1bY+jcJLo6m2T9Uh8AqjD77w11eAAawmjUogoGOnipECq7e/1RClIKsxg==}
+    dev: false
