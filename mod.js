@@ -137,7 +137,7 @@ const write = async (pkg, ver, target) => {
 		// main entrypoint can point to files without their extension
 		const files = await fetchJsDelivrListing(pkg, actualver);
 		const fields = ['module', 'main'];
-		const order = ['', '.mjs', '.js', '.json'];
+		const order = ['', '.mjs', '.js'];
 
 		let entry;
 
